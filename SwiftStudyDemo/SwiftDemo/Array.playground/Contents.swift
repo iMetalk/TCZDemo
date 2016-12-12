@@ -4,6 +4,9 @@ import UIKit
 
 var str = "Hello, playground"
 
+let VC = NSClassFromString("UIViewController")?.initialize()
+
+
 var someInts = [Int]()
 someInts.append(10)
 someInts = []
