@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qDy-5n-A9x">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="icn-M8-1KB"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="vb6-hh-Fmx">
+                        <leftBarButtonItems>
+                            <barButtonItem title="change" id="QgZ-0G-AGM">
+                                <connections>
+                                    <action selector="changeColor:" destination="BYZ-38-t0r" id="uZw-EG-dhs"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="keyframe" id="ySM-Tc-YnM">
+                                <connections>
+                                    <action selector="keyframeAction:" destination="BYZ-38-t0r" id="9fW-5A-02L"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem title="path" id="9iw-H0-hje">
+                                <connections>
+                                    <action selector="pathAnimate:" destination="BYZ-38-t0r" id="QLM-cK-AoQ"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="rotate" id="7eu-39-LNx">
+                                <connections>
+                                    <action selector="rotateAction:" destination="BYZ-38-t0r" id="RQN-bq-T5g"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="trasition" id="YIA-xx-EC8">
+                                <connections>
+                                    <action selector="transitionAction:" destination="BYZ-38-t0r" id="89C-2y-pRU"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896.79999999999995" y="122.78860569715144"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jw6-HW-nqI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qDy-5n-A9x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LIp-jv-SfB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eP8-OP-heD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Fm-5U-SOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-42.399999999999999" y="-560.86956521739137"/>
+        </scene>
+    </scenes>
+</document>
