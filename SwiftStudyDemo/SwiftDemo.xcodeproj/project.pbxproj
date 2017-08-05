@@ -48,12 +48,12 @@
 		234AC2CB1DDAA0BF00555D0A /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		234AC2CD1DDAA0BF00555D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		234AC2D91DDAA0D100555D0A /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; };
-		234AC2DA1DDAAAE800555D0A /* TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeCasting.playground; sourceTree = "<group>"; };
+		234AC2DA1DDAAAE800555D0A /* TypeCasting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TypeCasting.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		235423B11DE2D855008012D2 /* Property.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Property.playground; sourceTree = "<group>"; };
 		23D70EDA1DE7D95400A7E147 /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; };
 		23F04D371DDBF61600291EF6 /* Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Set.playground; sourceTree = "<group>"; };
-		23F04D381DDBFBCE00291EF6 /* Directory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Directory.playground; sourceTree = "<group>"; };
-		23F04D391DDC014600291EF6 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; };
+		23F04D381DDBFBCE00291EF6 /* Directory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Directory.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		23F04D391DDC014600291EF6 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
