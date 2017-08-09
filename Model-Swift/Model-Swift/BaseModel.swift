@@ -35,7 +35,7 @@ struct Subject:HandyJSON{
     var lessonPeriod: Int?
 }
 
-class BaseModel:HandyJSON {
+class Student: BaseModel {
     var id: String?
     var name: String?
     var age: Int?
@@ -46,8 +46,7 @@ class BaseModel:HandyJSON {
     var teacher: Teacher?
     var subject: [Subject]?
     var seat: String?
-    var parent: (String, String)? 
-    required  init() {}
+    var parent: (String, String)?
     
     //转换 字段
     func mapping(mapper: HelpingMapper) {
@@ -68,5 +67,9 @@ class BaseModel:HandyJSON {
                 return nil
             })
     }
+}
+
+class BaseModel:HandyJSON {
     
+    required  init() {}
 }
