@@ -1,21 +1,19 @@
 //
-//  Task.swift
+//  TaskList.swift
 //  RealmTest-swift-
 //
-//  Created by 武卓 on 2017/8/9.
+//  Created by 武卓 on 2017/8/10.
 //  Copyright © 2017年 武卓. All rights reserved.
 //
 
 import Foundation
 import RealmSwift
 
-class Task: Object {
+class TaskList: Object {
     
     dynamic var name = ""
-    dynamic var age = ""
     dynamic var createdAt = NSDate()
-    dynamic var isFinished = false
-    
+    let taskList = List<Task> ()
     
 // Specify properties to ignore (Realm won't persist these)
     
